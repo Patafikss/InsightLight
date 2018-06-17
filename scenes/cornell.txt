@@ -1,0 +1,12 @@
+#position of the directory
+../sceneData/cornell
+#put a '.' if the main directory is also the directory for objects or material ... 
+#relative position according to the directory for :
+#objects
+o:objs
+#material
+m: /mtl/ 
+end 
+#there is 3 ends : 1st end for folders
+#2nd end for explicit lights (directionnal, point, envmap
+#

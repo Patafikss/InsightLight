@@ -1,0 +1,20 @@
+#one line, one entry
+#camera
+begin Camera
+camera.cam
+end Camera
+
+#geometry : either files or folder(s)
+begin Geometry
+geometry
+end Geometry
+
+#envmap
+begin Envmap
+/texture/sky.exr
+end Envmap
+
+#lights : definition here or file/folder
+begin Light
+LightSource "areaLight" "/textures/rainbow.jpg"
+end Light
